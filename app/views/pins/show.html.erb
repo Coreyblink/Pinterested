@@ -1,12 +1,16 @@
 <div class='panel panel-default'>
 <div class='panel-heading'><p id="notice"><%= notice %></p></div>
 <div class='panel-body'>
-  
-<%= image_tag @pin.image.url(:medium) %><br/>
+
+<p>
   <strong>Description:</strong>
   <%= @pin.description %>
-<br/>
+</p>
 
+<p>
+  <strong>String:</strong>
+  <%= @pin.string %>
+</p>
 </div>
 <div class='panel-footer'>
   <% if@pin.user == current_user %>

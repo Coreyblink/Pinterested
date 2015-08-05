@@ -72,7 +72,11 @@ class PinsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pin_params
+<<<<<<< HEAD
       params.require(:pin).permit(:description, :image)
+=======
+      params.require(:pin).permit(:description, :string)
+>>>>>>> parent of f3535b9... Added imagemagick and paperclip, updated pins views
     end
     
 def correct_user
