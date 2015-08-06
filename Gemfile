@@ -10,11 +10,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'devise', '~> 3.5.1'
-<<<<<<< HEAD
 gem 'paperclip', '~> 4.3.0'
 gem 'aws', '~> 2.10.2'
-=======
->>>>>>> parent of f3535b9... Added imagemagick and paperclip, updated pins views
 group :development, :test do
   gem 'byebug'
 
